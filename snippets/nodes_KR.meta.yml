@@ -1,4 +1,22 @@
 proxies:
+- name: 'A - 🇰🇷 KR 01 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 108.162.196.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime59.workers.dev
+- name: 'A - 🇰🇷 KR 02 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 72.167.230.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime51.workers.dev
 - name: 🇰🇷KR
   password: 300f8c21-6341-4503-a5db-c13d331c63c8
   port: 20801
@@ -15,29 +33,10 @@ proxies:
   sni: hg1.yuanbaojc.site
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: update
-  name: 🇰🇷KR_1|5.3MB/s
-  network: grpc
-  packet-encoding: xudp
-  port: 10047
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: '!!str 686c0ef0'
-  server: kr2-r.link-t7.com
-  servername: s0.awsstatic.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 57A71E7F-E6B5-42BF-A4A6-47ECCBE7F50C
-- name: 🇰🇷KR_2|1.2MB/s
-  password: test.+
-  port: 30446
-  server: testkr3.ssv.vc
+- name: 🇰🇷KR_1|1.2MB/s
+  password: ''
+  port: '1090'
+  server: 121.169.46.116
   skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: test
+  type: socks5
+  username: ''
