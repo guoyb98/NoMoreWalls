@@ -17,3 +17,10 @@ proxies:
   ws-opts:
     headers:
       Host: vms.lifetime51.workers.dev
+- cipher: aes-256-cfb
+  name: 🇰🇷KR_1|4.0MB/s
+  password: 1234!@#$
+  port: '1774'
+  server: 49.254.204.133
+  type: ss
+  udp: true
